@@ -1,0 +1,35 @@
+body{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: 0;
+  font-family: Helvetica, Arial;
+}
+h1, h3{
+  margin: 20px auto;
+  text-align: center;
+}
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 30em;
+  height: 30em;
+}
+td{
+  width: 33.3%;
+  height: 33.3%;
+  font-size: 8em;
+  font-weight: bold;
+  text-align: center;
+}
+td:hover{
+  background-color: gray;
+}
+table, tr, td{
+  border: 3px solid black;
+}
+.taken:hover{
+  text-align: center;
+  background-color: white;
+}
